@@ -1,0 +1,81 @@
+header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-transform:uppercase;
+    background-color:#5d606b;
+    color: white;
+    
+}
+body header img{
+    width:auto;
+    height:100px;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin:0;
+    font-size:20px;
+    font-weight: 800;
+    background-color: #c7dcef;
+}
+main{
+    width: 60%;
+    margin:0 20vw;
+    justify-content: center;
+    text-align: center;
+}
+
+input{
+    font-size:20px;
+    border: 4px solid black;
+    margin: 8px 0;
+    width:500px;
+    padding: 0.7%;
+    border-radius: 15px;
+}
+Button{
+    border-radius: 5px;
+    font-weight: 800;
+    padding:9px ;
+    width:140px;
+    color:white;
+}
+#lookup{
+    background-color:#2ec881;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+#lookupC{
+    background-color:rgb(50, 132, 226);
+    cursor: pointer;
+}
+th{
+    text-align: center;
+    border: 1px solid rgb(119, 119, 119);
+    background-color: #7ebcf3;
+    padding: 0.5%;
+
+}
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+tr:nth-child(odd){
+    background-color: rgb(200, 195, 195);
+}
+td {
+    text-align: left;
+    border: 1px solid rgb(148, 146, 146);
+    padding: 0.8%;
+}
+
+tr:hover{
+    background-color: rgb(148, 148, 148);
+}
+table{
+    width: 100%;
+}
+#result{
+    display: flex;
+    justify-content: center;
+}
